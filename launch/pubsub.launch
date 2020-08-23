@@ -1,0 +1,14 @@
+<launch>
+  <arg name="dummy" default="dummy" doc="dummy argument"/>
+  <arg name="dummy2" doc="dummy argument without default value"/>
+
+  <group ns="sample">
+    <node pkg="roslaunch_sample" type="talker" name="talker">
+      <param name="message" value="AAA"/>
+      <param name="dummy" value="BBB"/>
+    </node>
+    <node pkg="roslaunch_sample" type="listner" name="listner">
+      <param name="dummy" value="CCC"/>
+    </node>
+  </group>
+</launch>

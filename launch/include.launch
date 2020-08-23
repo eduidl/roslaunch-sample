@@ -1,0 +1,7 @@
+<launch>
+  <include file="$(find roslaunch_sample)/launch/pubsub.launch">
+    <arg name="dummy2" value="dummy"/>
+  </include>
+  <include file="$(find roslaunch_sample)/launch/empty.launch"/>
+  <include file="$(find roslaunch_sample)/launch/empty.launch"/>
+</launch>

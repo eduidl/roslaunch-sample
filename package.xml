@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>roslaunch_sample</name>
+  <version>0.0.0</version>
+  <description>The roslaunch_sample package</description>
+
+  <maintainer email="yuma.hriamatsu@gmail.com">Yuma Hiramatsu</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rosccpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <build_export_depend>rosccpp</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+
+  <export>
+  </export>
+</package>

@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find roslaunch_sample)/launch/pubsub.launch">
+    <arg name="dummy2" value="dummy"/>
+  </include>
+  <node pkg="pcl_ros" type="pointcloud_to_pcd" name="pointcloud_to_pcd"/>
+</launch>
