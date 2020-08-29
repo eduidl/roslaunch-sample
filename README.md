@@ -217,8 +217,6 @@ masterノードの起動を待ってから個々のノードが立ち上げる�
 - `--pid`
 - `--numworkers`
 - `--timeout`
-- `--sigint-timeout`
-- `--sigterm-timeout`
  
 ## `roslaunch-check`
 
